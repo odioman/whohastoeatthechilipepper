@@ -30,10 +30,10 @@ while userin3 >= 4:
     if userin3 <= 3:
         break
 
-    userin3 = int(input('Needs to be 1, 2, or 3: '))
+userin3 = int(input('Needs to be 1, 2, or 3: '))
 chili3 = int(4 - userin2)
 chococounter3 = chococounter2 - 4
-print('You pick ', userin3)
+print('You picked ', userin3, 'computer chose', chili3)
 print('Chocounter:', chococounter3)
 
 # pepeer round
